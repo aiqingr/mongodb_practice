@@ -4,10 +4,10 @@ const Schema = mongoose.Schema;
 const AlbumSchema = new Schema({
   title: String,
   date: Date,
-  copiedSolid: Number,
+  copiesSolid: Number,
   numberTracks: Number,
   image: String,
   revenue: Number
 });
 
-module.exports = AblumSchema;
+module.exports = AlbumSchema;
